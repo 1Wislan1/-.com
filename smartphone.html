@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/noodles.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .menu__link{
+            padding-left: 750px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            border: 2px solid #202220;
+            color: #000000;
+            border-radius: 5px;
+            transition: all 0.3s;
+            margin: 10px;
+        }
+
+        .button:hover {
+            background-color: #3c3d46;
+            color: white;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="menu__link">
+            <a href="index.html" class="button">Главная</a>
+            <a href="#menu" class="button">Ассортимент</a>
+            <a href="#contact" class="button">Контакты</a>
+        </div>
+    <header>
+    <h2> Смартфоны</h2>
+</header>
+    
+    <section class="sushi-details">
+ 
+        <div class="sushi-item">
+            <img style="width: 250px ; height: 300px    ; " src="img/iphone 14.jpg" alt="Лапша 1">
+            <div class="sushi-info">
+                <h5 >Apple iPhone 14 Pro Max <b>|</b> 512 ГБ<b>|</b> темно-фиолетовый
+            </h2>
+                <p class="price">Цена: 116270₽</p>
+
+<!-- Кнопка 1-->
+                <div class="card__price-wrapper">
+                    <button 
+            type="button" 
+            class="price-button button" 
+            onclick="window['dialog1'].showModal()" 
+            aria-controls="dialog1" 
+          > 
+            <span class="button__text">Купить</span> 
+          </button> 
+        
+          <dialog  class="dialog1" id="dialog1"> 
+            <div class="dialog__box"> 
+              <div class="dialog__text-box"> 
+                <!-- <svg class="floppy" viewBox="0 0 21 21" width="39" height="39"> 
+                  <use href="./svg/floppy.svg#floppy"></use> 
+                </svg>  -->
+                <p class="dialog__text">Заполните форму </p> 
+              </div> 
+              <form> 
+                <div class="input__wrapper">
+                  <input placeholder="Введите ФИО" type="text" class="form__input">
+                  <input placeholder="Введите адрес" type="text" class="form__input">
+                  <input placeholder="Введите модель" type="text" class="form__input">
+                </div>
+                <button 
+                  type="button" 
+                  class="button dialog__close-btn" 
+                  onclick="window['dialog1'].close()" 
+                  aria-controls="dialog1 " 
+                > 
+                  <span class="dialog-button__text">Отправить</span> 
+                </button> 
+              </form> 
+            </div> 
+          </dialog>
+                  </div>
+
+
+
+            </div>
+        </div>
+        
+        <div class="sushi-item">
+            <img style="width: 250px ; height: 300px ;" src="img/iphone 15.jpg" alt="Лапша 2">
+            <div class="sushi-info">
+                <h5>Apple iPhone 15 Pro Max|SIM 1 ТБ|титановый бежевый</h5>
+                <p class="price">Цена: 119 990₽</p>
+                  
+
+<!-- Кнопка 2 -->
+                <div class="card__price-wrapper">
+                    <button 
+            type="button" 
+            class="price-button button" 
+            onclick="window['dialog2'].showModal()" 
+            aria-controls="dialog2" 
+          > 
+            <span  class="button__text">Купить</span> 
+          
+          </button> 
+        
+          <dialog  class="dialog2" id="dialog2"> 
+            <div class="dialog__box"> 
+              <div class="dialog__text-box"> 
+                <!-- <svg class="floppy" viewBox="0 0 21 21" width="39" height="39"> 
+                  <use href="./svg/floppy.svg#floppy"></use> 
+                </svg>  -->
+                <p class="dialog__text">Заполните форму </p> 
+              </div> 
+              <form> 
+                <div class="input__wrapper">
+                  <input placeholder="Введите ФИО" type="text" class="form__input">
+                  <input placeholder="Введите адрес" type="text" class="form__input">
+                  <input placeholder="Введите желаемый модель" type="text" class="form__input">
+                </div>
+                <button 
+                  type="button" 
+                  class="button dialog__close-btn" 
+                  onclick="window['dialog2'].close()" 
+                  aria-controls="dialog2" 
+                > 
+                  <span class="dialog-button__text">Отправить</span> 
+                </button> 
+              </form> 
+            </div> 
+          </dialog>
+                  </div>
+
+
+
+
+            </div>
+        </div>  
+    
+        <div class="sushi-item">
+            <img style="width: 250px ; height: 300px ;" src="img/iphone 13.jpg" alt="Лапша 3">
+            <div class="sushi-info">
+                <h5>Apple iPhone 13|128 ГБ|зеленый</h5>
+                <p class="price">Цена: 69 990 ₽</p>
+                
+<!--Кнопка 3 -->
+                <div class="card__price-wrapper">
+                    <button 
+            type="button" 
+            class="price-button button" 
+            onclick="window['dialog3'].showModal()" 
+            aria-controls="dialog3" 
+          > 
+            <span class="button__text">Купить</span> 
+          </button> 
+        
+          <dialog  class="dialog3" id="dialog3"> 
+            <div class="dialog__box"> 
+              <div class="dialog__text-box"> 
+                <!-- <svg class="floppy" viewBox="0 0 21 21" width="39" height="39"> 
+                  <use href="./svg/floppy.svg#floppy"></use> 
+                </svg>  -->
+                <p class="dialog__text">Заполните форму </p> 
+              </div> 
+              <form> 
+                <div class="input__wrapper">
+                  <input placeholder="Введите ФИО" type="text" class="form__input">
+                  <input placeholder="Введите адрес" type="text" class="form__input">
+                  <input placeholder="Введите желаемый модель" type="text" class="form__input">
+                </div>
+                <button 
+                  type="button" 
+                  class="button dialog__close-btn" 
+                  onclick="window['dialog3'].close()" 
+                  aria-controls="dialog3" 
+                > 
+                  <span class="dialog-button__text">Отправить</span> 
+                </button> 
+              </form> 
+            </div> 
+          </dialog>
+                  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    
+    </section>
+    
+    <section class="sushi-details">
+    
+        <div class="sushi-item">
+            <img style="width: 250px ; height: 300px ;" src="img/samsung a55.jpg" alt="Лапша 4">
+            <div class="sushi-info">
+                <h5>Samsung Galaxy A55 256 ГБ темно-синий</h5>
+                <p class="price">Цена: 47 990 ₽</p>
+                
+
+
+
+
+
+
+
+                <div class="card__price-wrapper">
+                    <button 
+            type="button" 
+            class="price-button button" 
+            onclick="window['dialog4'].showModal()" 
+            aria-controls="dialog4" 
+          > 
+            <span class="button__text">Купить</span> 
+          </button> 
+        
+          <dialog  class="dialog4" id="dialog4"> 
+            <div class="dialog__box"> 
+              <div class="dialog__text-box"> 
+                <!-- <svg class="floppy" viewBox="0 0 21 21" width="39" height="39"> 
+                  <use href="./svg/floppy.svg#floppy"></use> 
+                </svg>  -->
+                <p class="dialog__text">Заполните форму </p> 
+              </div> 
+              <form> 
+                <div class="input__wrapper">
+                  <input placeholder="Введите ФИО" type="text" class="form__input">
+                  <input placeholder="Введите адрес" type="text" class="form__input">
+                  <input placeholder="Введите желаемый модель" type="text" class="form__input">
+                </div>
+                <button 
+                  type="button" 
+                  class="button dialog__close-btn" 
+                  onclick="window['dialog4'].close()" 
+                  aria-controls="dialog3" 
+                > 
+                  <span class="dialog-button__text">Отправить</span> 
+                </button> 
+              </form> 
+            </div> 
+          </dialog>
+                  </div>
+
+
+
+
+
+
+
+
+
+
+        
+            </div>
+        </div>
+    
+        <div class="sushi-item">
+            <img style="width: 280px ; height: 300px ;" src="img/samsung s23 ultra.jpg" alt="Лапша 5">
+            <div class="sushi-info">
+                <h5>Samsung Galaxy S24 Ultra 1 ТБ желтый титан     </h5>
+                <p class="price">Цена: 189 990 ₽</p>
+                
+                
+
+
+
+
+
+
+                <div class="card__price-wrapper">
+                    <button 
+            type="button" 
+            class="price-button button" 
+            onclick="window['dialog5'].showModal()" 
+            aria-controls="dialog5" 
+          > 
+            <span class="button__text">Купить</span> 
+          </button> 
+        
+          <dialog  class="dialog5" id="dialog5"> 
+            <div class="dialog__box"> 
+              <div class="dialog__text-box"> 
+                <!-- <svg class="floppy" viewBox="0 0 21 21" width="39" height="39"> 
+                  <use href="./svg/floppy.svg#floppy"></use> 
+                </svg>  -->
+                <p class="dialog__text">Заполните форму </p> 
+              </div> 
+              <form> 
+                <div class="input__wrapper">
+                  <input placeholder="Введите ФИО" type="text" class="form__input">
+                  <input placeholder="Введите адрес" type="text" class="form__input">
+                  <input placeholder="Введите желаемый модель" type="text" class="form__input">
+                </div>
+                <button 
+                  type="button" 
+                  class="button dialog__close-btn" 
+                  onclick="window['dialog5'].close()" 
+                  aria-controls="dialog5" 
+                > 
+                  <span class="dialog-button__text">Отправить</span> 
+                </button> 
+              </form> 
+            </div> 
+          </dialog>
+                  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    
+        <div class="sushi-item">
+            <img style="width: 250px ; height: 300px ;" src="img/samsung s24.jpg" alt="Лапша 6">
+            <div class="sushi-info">
+                <h5>Samsung Galaxy S24+ 256 ГБ желтый</h5>
+                <p class="price">Цена: 111 990 ₽</p>
+                
+
+
+
+
+
+
+
+                <div class="card__price-wrapper">
+                    <button 
+            type="button" 
+            class="price-button button" 
+            onclick="window['dialog6'].showModal()" 
+            aria-controls="dialog6" 
+          > 
+            <span class="button__text">Купить</span> 
+          </button> 
+        
+          <dialog  class="dialog6" id="dialog6"> 
+            <div class="dialog__box"> 
+              <div class="dialog__text-box"> 
+                <!-- <svg class="floppy" viewBox="0 0 21 21" width="39" height="39"> 
+                  <use href="./svg/floppy.svg#floppy"></use> 
+                </svg>  -->
+                <p class="dialog__text">Заполните форму </p> 
+              </div> 
+              <form> 
+                <div class="input__wrapper">
+                  <input placeholder="Введите ФИО" type="text" class="form__input">
+                  <input placeholder="Введите адрес" type="text" class="form__input">
+                  <input placeholder="Введите желаемый модель" type="text" class="form__input">
+                </div>
+                <button 
+                  type="button" 
+                  class="button dialog__close-btn" 
+                  onclick="window['dialog6'].close()" 
+                  aria-controls="dialog6" 
+                > 
+                  <span class="dialog-button__text">Отправить</span> 
+                </button> 
+              </form> 
+            </div> 
+          </dialog>
+                  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    
+    </section>
+    <button class="btn-ens-action btn-ens-style" data-rel="4a9f99dc105">
+        Купить
+    </button>
+    
+    
+    <footer>
+        <p>&copy; 2024 Доставка по всей России. Все права защищены.</p>
+    </footer>
+   
+</body>
+</html>
+
+
+
+
+
+
+
+    
+  
+    

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/roll.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .menu__link{
+            padding-left: 750px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            border: 2px solid #202220;
+            color: #000000;
+            border-radius: 5px;
+            transition: all 0.3s;
+            margin: 10px;
+        }
+
+        .button:hover {
+            background-color: #3c3d46;
+            color: white;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="menu__link">
+            <a href="index.html" class="button">Главная</a>
+            <a href="assortment.html" class="button">Ассортимент</a>
+            <a href="contacts.html" class="button">Контакты</a>
+        </div>
+    <header>
+        <h1> Ноутбуки</h1>
+    </header>
+    
+    <section class="sushi-details">
+
+        <div class="sushi-item">
+            <img src="img/macbook aor 13.jpg">
+            <div class="sushi-info">
+                <h2>Apple MacBook Air 13" (M3, 8C CPU/8C GPU, 2024), 8 ГБ, 256 ГБ SSD, «полуночный черный»</h2>
+                <p class="price">Цена: 154 990 ₽</p>
+                
+                
+<!-- Кнопка 1 -->
+                <div class="card__price-wrapper">
+                    <button 
+            type="button" 
+            class="price-button button" 
+            onclick="window['dialog1'].showModal()" 
+            aria-controls="dialog1" 
+          > 
+            <span class="button__text">Купить</span> 
+          </button> 
+        
+          <dialog  class="dialog1" id="dialog1"> 
+            <div class="dialog__box"> 
+              <div class="dialog__text-box"> 
+                <!-- <svg class="floppy" viewBox="0 0 21 21" width="39" height="39"> 
+                  <use href="./svg/floppy.svg#floppy"></use> 
+                </svg>  -->
+                <p class="dialog__text">Заполните форму </p> 
+              </div> 
+              <form> 
+                <div class="input__wrapper">
+                  <input placeholder="Введите ФИО" type="text" class="form__input">
+                  <input placeholder="Введите адрес" type="text" class="form__input">
+                  <input placeholder="Введите модель" type="text" class="form__input">
+                </div>
+                <button 
+                  type="button" 
+                  class="button dialog__close-btn" 
+                  onclick="window['dialog1'].close()" 
+                  aria-controls="dialog1 " 
+                > 
+                  <span class="dialog-button__text">Отправить</span> 
+                </button> 
+              </form> 
+            </div> 
+          </dialog>
+                  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    
+        <div class="sushi-item">
+            <img src="img/macbook aor 15.jpg">
+            <div class="sushi-info">
+                <h2>Apple MacBook Air 15" (M3, 8C CPU/10C GPU, 2024), 8 ГБ, 256 ГБ SSD, «серый космос»</h2>
+                <p class="price">Цена: 179 990 ₽</p>
+                
+
+
+<!-- Кнопка 2 -->
+                <div class="card__price-wrapper">
+                    <button 
+            type="button" 
+            class="price-button button" 
+            onclick="window['dialog2'].showModal()" 
+            aria-controls="dialog2" 
+          > 
+            <span class="button__text">Купить</span> 
+          </button> 
+        
+          <dialog  class="dialog2" id="dialog2"> 
+            <div class="dialog__box"> 
+              <div class="dialog__text-box"> 
+                <!-- <svg class="floppy" viewBox="0 0 21 21" width="39" height="39"> 
+                  <use href="./svg/floppy.svg#floppy"></use> 
+                </svg>  -->
+                <p class="dialog__text">Заполните форму </p> 
+              </div> 
+              <form> 
+                <div class="input__wrapper">
+                  <input placeholder="Введите ФИО" type="text" class="form__input">
+                  <input placeholder="Введите адрес" type="text" class="form__input">
+                  <input placeholder="Введите желаемый модель" type="text" class="form__input">
+                </div>
+                <button 
+                  type="button" 
+                  class="button dialog__close-btn" 
+                  onclick="window['dialog2'].close()" 
+                  aria-controls="dialog2" 
+                > 
+                  <span class="dialog-button__text">Отправить</span> 
+                </button> 
+              </form> 
+            </div> 
+          </dialog>
+                  </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    
+        <div class="sushi-item">
+            <img src="img/macbook aor 14.jpg">
+            <div class="sushi-info">
+                <h2>Apple MacBook Pro 14" (M3 Pro 12C CPU, 18C GPU, 2023) 18 ГБ, 1 ТБ SSD, серебристый</h2>
+                <p class="price">Цена: 314 990 ₽</p>
+               
+
+<!-- Кнопка 3 -->
+                <div class="card__price-wrapper">
+                    <button 
+            type="button" 
+            class="price-button button" 
+            onclick="window['dialog3'].showModal()" 
+            aria-controls="dialog3" 
+          > 
+            <span class="button__text">Купить</span> 
+          </button> 
+        
+          <dialog  class="dialog3" id="dialog3"> 
+            <div class="dialog__box"> 
+              <div class="dialog__text-box"> 
+                <!-- <svg class="floppy" viewBox="0 0 21 21" width="39" height="39"> 
+                  <use href="./svg/floppy.svg#floppy"></use> 
+                </svg>  -->
+                <p class="dialog__text">Заполните форму </p> 
+              </div> 
+              <form> 
+                <div class="input__wrapper">
+                  <input placeholder="Введите ФИО" type="text" class="form__input">
+                  <input placeholder="Введите адрес" type="text" class="form__input">
+                  <input placeholder="Введите желаемый модель" type="text" class="form__input">
+                </div>
+                <button 
+                  type="button" 
+                  class="button dialog__close-btn" 
+                  onclick="window['dialog3'].close()" 
+                  aria-controls="dialog3" 
+                > 
+                  <span class="dialog-button__text">Отправить</span> 
+                </button> 
+              </form> 
+            </div> 
+          </dialog>
+                  </div>
+
+
+
+
+            </div>
+        </div>
+    
+    
+    </section>
+
+    <section class="sushi-details">
+    
+        <div class="sushi-item">
+            <img  src="img/samsung book.jpg" >
+            <div class="sushi-info">
+                <h2>Samsung Galaxy Book3 Pro 14" i7 16ГБ/1ТБ графит</h2>
+                <p  class="price">Цена: 259 990 ₽ </p>
+                
+
+
+<!-- Кнопка 4 -->
+                <div class="card__price-wrapper">
+                    <button 
+            type="button" 
+            class="price-button button" 
+            onclick="window['dialog4'].showModal()" 
+            aria-controls="dialog4" 
+          > 
+            <span class="button__text">Купить</span> 
+          </button> 
+        
+          <dialog  class="dialog4" id="dialog4"> 
+            <div class="dialog__box"> 
+              <div class="dialog__text-box"> 
+                <!-- <svg class="floppy" viewBox="0 0 21 21" width="39" height="39"> 
+                  <use href="./svg/floppy.svg#floppy"></use> 
+                </svg>  -->
+                <p class="dialog__text">Заполните форму </p> 
+              </div> 
+              <form> 
+                <div class="input__wrapper">
+                  <input placeholder="Введите ФИО" type="text" class="form__input">
+                  <input placeholder="Введите адрес" type="text" class="form__input">
+                  <input placeholder="Введите желаемый модель" type="text" class="form__input">
+                </div>
+                <button 
+                  type="button" 
+                  class="button dialog__close-btn" 
+                  onclick="window['dialog4'].close()" 
+                  aria-controls="dialog3" 
+                > 
+                  <span class="dialog-button__text">Отправить</span> 
+                </button> 
+              </form> 
+            </div> 
+          </dialog>
+                  </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    
+        <div class="sushi-item">
+            <img  style="margin-bottom: 20px; width: 320px; " src="img/samsung book2.jpg" >
+            <div class="sushi-info">
+                <h2>Ноутбук Samsung Galaxy Book2 360 13.3"512ГБ серебристый</h2>
+                <p class="price">Цена: 239 990 ₽</p>
+                
+<!-- Кнопка 5 -->
+
+                <div class="card__price-wrapper">
+                    <button 
+            type="button" 
+            class="price-button button" 
+            onclick="window['dialog5'].showModal()" 
+            aria-controls="dialog5" 
+          > 
+            <span class="button__text">Купить</span> 
+          </button> 
+        
+          <dialog  class="dialog5" id="dialog5"> 
+            <div class="dialog__box"> 
+              <div class="dialog__text-box"> 
+                <!-- <svg class="floppy" viewBox="0 0 21 21" width="39" height="39"> 
+                  <use href="./svg/floppy.svg#floppy"></use> 
+                </svg>  -->
+                <p class="dialog__text">Заполните форму </p> 
+              </div> 
+              <form> 
+                <div class="input__wrapper">
+                  <input placeholder="Введите ФИО" type="text" class="form__input">
+                  <input placeholder="Введите адрес" type="text" class="form__input">
+                  <input placeholder="Введите желаемый модель" type="text" class="form__input">
+                </div>
+                <button 
+                  type="button" 
+                  class="button dialog__close-btn" 
+                  onclick="window['dialog5'].close()" 
+                  aria-controls="dialog5" 
+                > 
+                  <span class="dialog-button__text">Отправить</span> 
+                </button> 
+              </form> 
+            </div> 
+          </dialog>
+                  </div>
+
+
+
+
+
+            </div>
+        </div>
+    
+        <div class="sushi-item">
+            <img style="margin-bottom: 35px;" src="img/samsung book3.jpg" >
+            <div class="sushi-info">
+                <h2>Samsung Galaxy Book3 15.6" i5 8ГБ/512ГБ серебристый</h2>
+                <p class="price">Цена: 119 990 ₽
+                </p>
+                
+
+
+<!-- Кнопка 6 -->
+                <div class="card__price-wrapper">
+                    <button 
+            type="button" 
+            class="price-button button" 
+            onclick="window['dialog6'].showModal()" 
+            aria-controls="dialog6" 
+          > 
+            <span class="button__text">Купить</span> 
+          </button> 
+        
+          <dialog  class="dialog6" id="dialog6"> 
+            <div class="dialog__box"> 
+              <div class="dialog__text-box"> 
+                <!-- <svg class="floppy" viewBox="0 0 21 21" width="39" height="39"> 
+                  <use href="./svg/floppy.svg#floppy"></use> 
+                </svg>  -->
+                <p class="dialog__text">Заполните форму </p> 
+              </div> 
+              <form> 
+                <div class="input__wrapper">
+                  <input placeholder="Введите ФИО" type="text" class="form__input">
+                  <input placeholder="Введите адрес" type="text" class="form__input">
+                  <input placeholder="Введите желаемый модель" type="text" class="form__input">
+                </div>
+                <button 
+                  type="button" 
+                  class="button dialog__close-btn" 
+                  onclick="window['dialog6'].close()" 
+                  aria-controls="dialog6" 
+                > 
+                  <span class="dialog-button__text">Отправить</span> 
+                </button> 
+              </form> 
+            </div> 
+          </dialog>
+                  </div>
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    
+    
+    </section>
+    
+    
+    <footer>
+        <p>&copy; 2024 Японская доставка. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
