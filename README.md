@@ -1,2 +1,2 @@
-# -.com
+InternetMagazin.com
 Интернет магазин электроники
